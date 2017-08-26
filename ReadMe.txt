@@ -18,4 +18,9 @@ This project is for creating Restul Webservices which does the following:
 		- Database connectivity is done by JPA capability provided by Spring boot as it is included in dependency of pom.xml (apache derby and JPA)
 
 
-Final WAR is auto-created /ausPostAssignment/target/ausPostAssignment-1.0.0-SNAPSHOT.war which is ready to be deployed on any app server.
+Process for Build Creation and other details:
+1) Import the project as maven.
+2) Execute the maven project as maven install.
+3) This will create deployable war file which can be deployed to any application server.
+		
+Final WAR will be created at /ausPostAssignment/target/ausPostAssignment-1.0.0-SNAPSHOT.war which is ready to be deployed on any app server.
