@@ -1,0 +1,164 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ausPostAssignment 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ausPostAssignment ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ausPostAssignment ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to E:\spring_boot\Spring_WS1\ausPostAssignment\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ausPostAssignment ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\spring_boot\Spring_WS1\ausPostAssignment\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ausPostAssignment ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to E:\spring_boot\Spring_WS1\ausPostAssignment\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ ausPostAssignment ---
+[INFO] Surefire report directory: E:\spring_boot\Spring_WS1\ausPostAssignment\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+20:26:38.216 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.aus.post.AusPostAssignmentApplicationTests]
+20:26:38.261 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:26:38.387 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:26:38.419 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.aus.post.AusPostAssignmentApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:26:38.484 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.aus.post.AusPostAssignmentApplicationTests], using SpringBootContextLoader
+20:26:38.489 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.aus.post.AusPostAssignmentApplicationTests]: class path resource [com/aus/post/AusPostAssignmentApplicationTests-context.xml] does not exist
+20:26:38.490 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.aus.post.AusPostAssignmentApplicationTests]: class path resource [com/aus/post/AusPostAssignmentApplicationTestsContext.groovy] does not exist
+20:26:38.490 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.aus.post.AusPostAssignmentApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:26:38.493 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.aus.post.AusPostAssignmentApplicationTests]: AusPostAssignmentApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:26:38.707 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.aus.post.AusPostAssignmentApplicationTests]
+20:26:38.757 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+20:26:38.757 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+20:26:38.758 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+20:26:38.777 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/aus/post/] to resources [URL [file:/E:/spring_boot/Spring_WS1/ausPostAssignment/target/test-classes/com/aus/post/], URL [file:/E:/spring_boot/Spring_WS1/ausPostAssignment/target/classes/com/aus/post/]]
+20:26:38.777 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [E:\spring_boot\Spring_WS1\ausPostAssignment\target\test-classes\com\aus\post]
+20:26:38.777 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [E:\spring_boot\Spring_WS1\ausPostAssignment\target\test-classes\com\aus\post] for files matching pattern [E:/spring_boot/Spring_WS1/ausPostAssignment/target/test-classes/com/aus/post/*.class]
+20:26:38.781 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [E:\spring_boot\Spring_WS1\ausPostAssignment\target\classes\com\aus\post]
+20:26:38.782 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [E:\spring_boot\Spring_WS1\ausPostAssignment\target\classes\com\aus\post] for files matching pattern [E:/spring_boot/Spring_WS1/ausPostAssignment/target/classes/com/aus/post/*.class]
+20:26:38.783 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/aus/post/*.class] to resources [file [E:\spring_boot\Spring_WS1\ausPostAssignment\target\test-classes\com\aus\post\AusPostAssignmentApplicationTests.class], file [E:\spring_boot\Spring_WS1\ausPostAssignment\target\classes\com\aus\post\AusPostAssignmentApplication.class]]
+20:26:38.909 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [E:\spring_boot\Spring_WS1\ausPostAssignment\target\classes\com\aus\post\AusPostAssignmentApplication.class]
+20:26:38.910 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.aus.post.AusPostAssignmentApplication for test class com.aus.post.AusPostAssignmentApplicationTests
+20:26:38.944 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.aus.post.AusPostAssignmentApplicationTests]: using defaults.
+20:26:38.954 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+20:26:39.085 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7fad8c79, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@71a794e5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@76329302, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5e25a92e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4df828d7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@b59d31, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62fdb4a6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@11e21d0e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1dd02175, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@31206beb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3e77a1ed, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3ffcd140]
+20:26:39.103 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.aus.post.AusPostAssignmentApplicationTests]
+20:26:39.104 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.aus.post.AusPostAssignmentApplicationTests]
+Running com.aus.post.AusPostAssignmentApplicationTests
+20:26:39.107 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.aus.post.AusPostAssignmentApplicationTests]
+20:26:39.107 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:26:39.108 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:26:39.108 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.aus.post.AusPostAssignmentApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:26:39.109 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.aus.post.AusPostAssignmentApplicationTests], using SpringBootContextLoader
+20:26:39.110 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.aus.post.AusPostAssignmentApplicationTests]: class path resource [com/aus/post/AusPostAssignmentApplicationTests-context.xml] does not exist
+20:26:39.111 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.aus.post.AusPostAssignmentApplicationTests]: class path resource [com/aus/post/AusPostAssignmentApplicationTestsContext.groovy] does not exist
+20:26:39.111 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.aus.post.AusPostAssignmentApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:26:39.111 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.aus.post.AusPostAssignmentApplicationTests]: AusPostAssignmentApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:26:39.117 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.aus.post.AusPostAssignmentApplicationTests]
+20:26:39.118 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+20:26:39.118 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+20:26:39.118 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+20:26:39.118 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.aus.post.AusPostAssignmentApplication for test class com.aus.post.AusPostAssignmentApplicationTests
+20:26:39.121 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.aus.post.AusPostAssignmentApplicationTests]: using defaults.
+20:26:39.125 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+20:26:39.128 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@971d0d8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51931956, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2b4a2ec7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@564718df, org.springframework.test.context.transaction.TransactionalTestExecutionListener@51b7e5df, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@18a70f16, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62e136d3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@c8e4bb0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6279cee3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4206a205, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@29ba4338, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@57175e74]
+20:26:39.129 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.aus.post.AusPostAssignmentApplicationTests]
+20:26:39.129 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.aus.post.AusPostAssignmentApplicationTests]
+20:26:39.139 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.aus.post.AusPostAssignmentApplicationTests]
+20:26:39.140 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.aus.post.AusPostAssignmentApplicationTests]
+20:26:39.169 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@41ee392b testClass = AusPostAssignmentApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1e67a849 testClass = AusPostAssignmentApplicationTests, locations = '{}', classes = '{class com.aus.post.AusPostAssignmentApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@eec5a4a, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@57536d79, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@49fc609f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+20:26:39.171 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.aus.post.AusPostAssignmentApplicationTests]
+20:26:39.172 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.aus.post.AusPostAssignmentApplicationTests]
+20:26:39.395 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+20:26:39.395 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+20:26:39.396 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+20:26:39.398 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+20:26:39.404 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+20:26:39.405 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.2.RELEASE)
+
+2017-08-26 20:26:40.518  INFO 8680 --- [           main] c.a.p.AusPostAssignmentApplicationTests  : Starting AusPostAssignmentApplicationTests on Admin-PC with PID 8680 (started by Shruti in E:\spring_boot\Spring_WS1\ausPostAssignment)
+2017-08-26 20:26:40.521  INFO 8680 --- [           main] c.a.p.AusPostAssignmentApplicationTests  : No active profile set, falling back to default profiles: default
+2017-08-26 20:26:41.077  INFO 8680 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@120f102b: startup date [Sat Aug 26 20:26:41 AEST 2017]; root of context hierarchy
+2017-08-26 20:26:48.712  INFO 8680 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$71c7a0a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-08-26 20:26:48.847  INFO 8680 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$a7568e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-08-26 20:26:48.879  INFO 8680 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-08-26 20:26:48.881  INFO 8680 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@58faa93b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-08-26 20:26:48.888  INFO 8680 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$2f4a0b92] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-08-26 20:26:48.909  INFO 8680 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-08-26 20:26:51.316  INFO 8680 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-08-26 20:26:51.380  INFO 8680 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-08-26 20:26:51.766  INFO 8680 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-08-26 20:26:51.769  INFO 8680 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-08-26 20:26:51.787  INFO 8680 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-08-26 20:26:51.922  INFO 8680 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-26 20:26:52.412  INFO 8680 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2017-08-26 20:26:52.424  WARN 8680 --- [           main] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2017-08-26 20:26:54.124  INFO 8680 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-08-26 20:26:54.147 ERROR 8680 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop table address
+2017-08-26 20:26:54.147 ERROR 8680 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : Schema 'SA' does not exist
+2017-08-26 20:26:54.241  WARN 8680 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 10000, SQLState: 01J01
+2017-08-26 20:26:54.241  WARN 8680 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database 'memory:testdb' not created, connection made to existing database instead.
+2017-08-26 20:26:54.242  INFO 8680 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-08-26 20:26:54.344  INFO 8680 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-08-26 20:26:56.722  INFO 8680 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c3e363, org.springframework.security.web.context.SecurityContextPersistenceFilter@316d30ad, org.springframework.security.web.header.HeaderWriterFilter@595fed99, org.springframework.security.web.authentication.logout.LogoutFilter@3cd46491, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@44084713, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30d5e37c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@259195fe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16c5b50a, org.springframework.security.web.session.SessionManagementFilter@9c0d0bd, org.springframework.security.web.access.ExceptionTranslationFilter@7893c715, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@29c1249a]
+2017-08-26 20:26:58.082  INFO 8680 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@120f102b: startup date [Sat Aug 26 20:26:41 AEST 2017]; root of context hierarchy
+2017-08-26 20:26:58.367  INFO 8680 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addNewAddress],methods=[POST]}" onto public java.lang.String com.aus.post.io.AddressController.addNewAddress(com.aus.post.io.Address)
+2017-08-26 20:26:58.369  INFO 8680 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/get/AddressByPostcode/{postcode}]}" onto public java.util.List<com.aus.post.io.Address> com.aus.post.io.AddressController.returnAddress(int)
+2017-08-26 20:26:58.369  INFO 8680 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/get/AllAddress]}" onto public java.util.List<com.aus.post.io.Address> com.aus.post.io.AddressController.returnAllAddress()
+2017-08-26 20:26:58.370  INFO 8680 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/get/AddressBySuburb/{suburb}]}" onto public java.util.List<com.aus.post.io.Address> com.aus.post.io.AddressController.returnAddressSuburb(java.lang.String)
+2017-08-26 20:26:58.374  INFO 8680 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-26 20:26:58.375  INFO 8680 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-26 20:26:58.482  INFO 8680 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-26 20:26:58.482  INFO 8680 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-26 20:26:58.612  INFO 8680 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-26 20:26:59.352  INFO 8680 --- [           main] c.a.p.AusPostAssignmentApplicationTests  : Started AusPostAssignmentApplicationTests in 19.881 seconds (JVM running for 22.088)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.478 sec - in com.aus.post.AusPostAssignmentApplicationTests
+2017-08-26 20:26:59.588  INFO 8680 --- [       Thread-4] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@120f102b: startup date [Sat Aug 26 20:26:41 AEST 2017]; root of context hierarchy
+2017-08-26 20:26:59.594  INFO 8680 --- [       Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-08-26 20:26:59.595  INFO 8680 --- [       Thread-4] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-08-26 20:26:59.650  INFO 8680 --- [       Thread-4] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-war) @ ausPostAssignment ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [ausPostAssignment] in [E:\spring_boot\Spring_WS1\ausPostAssignment\target\ausPostAssignment-1.0.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [E:\spring_boot\Spring_WS1\ausPostAssignment\src\main\webapp]
+[INFO] Webapp assembled in [1023 msecs]
+[INFO] Building war: E:\spring_boot\Spring_WS1\ausPostAssignment\target\ausPostAssignment-1.0.0-SNAPSHOT.war
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.5.2.RELEASE:repackage (default) @ ausPostAssignment ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ ausPostAssignment ---
+[INFO] Installing E:\spring_boot\Spring_WS1\ausPostAssignment\target\ausPostAssignment-1.0.0-SNAPSHOT.war to C:\Users\Shruti\.m2\repository\com\aus\post\ausPostAssignment\1.0.0-SNAPSHOT\ausPostAssignment-1.0.0-SNAPSHOT.war
+[INFO] Installing E:\spring_boot\Spring_WS1\ausPostAssignment\pom.xml to C:\Users\Shruti\.m2\repository\com\aus\post\ausPostAssignment\1.0.0-SNAPSHOT\ausPostAssignment-1.0.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 43.169 s
+[INFO] Finished at: 2017-08-26T20:27:11+10:00
+[INFO] Final Memory: 35M/219M
+[INFO] ------------------------------------------------------------------------
